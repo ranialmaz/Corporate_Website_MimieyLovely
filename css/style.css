@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.nav-bar {
+  width: 100%;
+  background: #3a1f17;
+}
+
+.nav-bar td {
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+.logo-area {
+  vertical-align: middle;
+}
+
+.logo-img {
+  width: 40px;     
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #c9a24d;
+}
