@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+  width: 100%;
+  background: #3a1f17;
+}
+
+.nav-bar td {
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+.logo-area {
+  vertical-align: middle;
+}
+
+.logo-img {
+  width: 40px;     
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #c9a24d;
+}
+
+.audio {
+
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+  background-image: url("image/pic1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-content {
+  background: rgba(0,0,0,0.55);
+  padding: 120px 80px;
+}
+
+.hero-content h5 {
+  letter-spacing: 2px;
+  color: #c9a24d;
+}
+
+.hero-content h1 {
+  font-size: 54px;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  width: 450px;
+  line-height: 1.6;
+}
+
+.hero-content button {
+  padding: 12px 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border: none;
+  background: #c9a24d;
+  cursor: pointer;
+}
+
+.trending {
+  width: 100%;
+  background-image: url("image/pink1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  padding: 60px 0 120px;  
+  margin: 0;              
+}
+
+.trending table {
+  margin: auto;
+}
+
+.menu-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.trending th {
+    font-size: 35px;      
+    font-weight: bold;
+    color: darkred;
+    padding: 12px;
+}
+
+.trending button {
+  font-size: 30px;
+  background: #c9a24d;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.trending button:hover {
+  background: #b8923f;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+  background: #c9a24d;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #b8923f;
+}
+
+
+.footer {
+  width: 100%;
+  background: #3a1f17;
+  color: white;
+  margin: 0;             
+  padding: 0;
+}
+
+.footer td {
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+}
