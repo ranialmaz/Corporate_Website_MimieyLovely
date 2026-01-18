@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mimieylovely Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+
+<table class="nav-bar">
+  <tr>
+   <td class="logo-area">
+      <img src="image/logo.jpg" class="logo-img">
+      <span class="logo-text">mimieylovely</span>
+    </td>
+    <td align="right" class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about_us.html">About Us</a>
+      <a href="product_service.html">Product and Service</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="analysis.html">Analysis</a>
+      <a href="contact_detail.html">Contact Us</a>
+
+    </td>
+  </tr>
+</table>
+
+<table class="hero">
+  <tr>
+    <td class="hero-content">
+      <h5>WELCOME TO MIMIEYLOVELY</h5>
+      <h1>Enjoy Your<br>Coffee Moment</h1>
+      <p>Fresh coffee, handmade desserts, and cozy atmosphere.</p>
+      <a href="about.html" class="btn">About Us</a>
+   
+  </tr>
+</table>
+
+
+
+
+<table class="trending">
+  <tr>
+    <th colspan="3">Trending Menu</th>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <button onclick="prevSlide()">❮</button>
+    </td>
+
+    <td align="center">
+      <img id="menuSlide"
+           src="image/matcha.jpg"
+           class="menu-img">
+    </td>
+
+    <td align="center">
+      <button onclick="nextSlide()">❯</button>
+    </td>
+  </tr>
+</table>
+
+<script>
+
+  const images = [
+    "image/dirtymatcha.jpg",
+    "image/mactaro.jpg",
+    "image/taro.jpg",
+    "image/matcha.jpg",
+  ];
+
+  let currentIndex = 0;
+  const slideImg = document.getElementById("menuSlide");
+
+  function nextSlide() {
+    currentIndex++;
+    if (currentIndex >= images.length) {
+      currentIndex = 0;
+    }
+    slideImg.src = images[currentIndex];
+  }
+
+  function prevSlide() {
+    currentIndex--;
+    if (currentIndex < 0) {
+      currentIndex = images.length - 1;
+    }
+    slideImg.src = images[currentIndex];
+  }
+
+  {
+   alert("Welcome to Mimeylovely home page 😎 <3 \n Hope you enjoy your time")
+  }
+
+</script>
+
+<table class="footer">
+    <tr>
+        <td>&copy 2025 Maisarah. All rights reserved.</td>
+    </tr>
+</table>
+
+</body>
+
+
+</html>
