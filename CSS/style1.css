@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+  width: 100%;
+  background: #3a1f17;
+  margin: 0;
+}
+
+.nav-bar td {
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+.logo-area {
+  vertical-align: middle;
+}
+
+.logo-img {
+  width: 40px;     
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #c9a24d;
+}
+.mission
+{
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow:  0 4px 12px rgba(0, 0, 0, 0.1);
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: Tahoma;
+	position: relative;
+	border: 1px solid #e6d5b8;
+	transition: all 0.3s ease;
+	margin-top: 30px;
+	background-color: mistyrose;
+
+}
+.mission h3
+{
+	font-size: 28px;
+	margin-bottom: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #d4a76a;
+	padding-bottom: 10px;
+	transition: color 0.3s ease;
+}
+.mission p 
+{
+	color: saddlebrown;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	margin: 0;
+	padding: 0 20px;
+	transition: color 0.3s ease;
+}
+.mission:hover 
+{
+	background-color: saddlebrown;
+	color: beige;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.mission:hover p
+{
+	color: wheat;
+}
+.mission:hover h3
+{
+	color: beige;
+}
+.vision
+{
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow:  0 4px 12px rgba(0, 0, 0, 0.1);
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: Tahoma;
+	position: relative;
+	border: 1px solid #e6d5b8;
+	transition: all 0.3s ease;
+	margin-top: 30px;
+	background-color: papayawhip;
+}
+.vision h3 
+{
+	font-size: 28px;
+	margin-bottom: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #d4a76a;
+	padding-bottom: 10px;
+	transition: color 0.3s ease;
+}
+.vision p 
+{
+	color: saddlebrown;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	margin: 0;
+	padding: 0 20px;
+	transition: color 0.3s ease;
+}
+.vision:hover 
+{
+	background-color: saddlebrown;
+	color: beige;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.vision:hover p
+{
+	color: wheat;
+}
+.vision:hover h3 
+{
+	color: beige;
+}
+
+.story-section h3:before {
+    content: "✦";
+    color: #d4a76a;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.story-section h3:after {
+    content: "✦";
+    color: #d4a76a;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+section::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 1;
+}
+section > *
+{
+	position: relative;
+	z-index: 2;
+	margin-left: 15%;
+}
+.story-section
+{
+	background: white;
+	padding: 80px 20px;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.objectives
+{
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow:  0 4px 12px rgba(0, 0, 0, 0.1);
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: Tahoma;
+	position: relative;
+	border: 1px solid #e6d5b8;
+	transition: all 0.3s ease;
+	margin-top: 30px;
+	background-color: peachpuff;
+}
+.objectives h3 
+{
+	font-size: 28px;
+	margin-bottom: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #d4a76a;
+	padding-bottom: 10px;
+	transition: color 0.3s ease;
+}
+.objectives li
+{
+	color: saddlebrown;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	margin: 0;
+	padding: 0 20px;
+	transition: color 0.3s ease;
+}
+.objectives:hover 
+{
+	background-color: saddlebrown;
+	color: beige;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.objectives:hover li
+{
+	color: wheat;
+}
+.objectives:hover h3 
+{
+	color: beige;
+}
+.footer {
+   width: 100%;
+   background: #3a1f17;
+   color: white;
+   margin-top: 60px;
+   margin-left: -20px;
+   margin-right: -20px;
+   width: calc(100% + 40px); 
+}
+
+
+.footer td {
+   text-align: center;
+   padding: 30px;
+   color: white;
+   font-size: 14px;
+}
+
+
