@@ -109,19 +109,12 @@ button {
 	margin-right: 10px;
 }
 .social-links a {
-	width: 50px;
-	height: 50px;
-	display: inline-block;
-	text-align: center;
-	line-height: 40px;
-	margin-right: 10px;
-	border-radius: 50%;
-	color: lightpink;
-	background-color: sandybrown;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-	transition: all 0.4s ease;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin-right: 5px;
 }
-
 iframe {
 	border-radius: 20px;
 }
