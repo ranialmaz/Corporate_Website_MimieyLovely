@@ -114,7 +114,20 @@ button {
 	line-height: 30px;
 	font-size: 14px;
 	margin-right: 5px;
-p {
+{
+.social-links a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+	color: darkslategrey;
+	background-color: lightpink;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	transition: all 0.4s ease;
+}
   margin-bottom: 20px;
 }
 	
