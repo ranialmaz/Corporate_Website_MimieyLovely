@@ -114,7 +114,11 @@ button {
 	line-height: 30px;
 	font-size: 14px;
 	margin-right: 5px;
+p {
+  margin-bottom: 20px;
 }
+	
+
 iframe {
 	border-radius: 20px;
 }
